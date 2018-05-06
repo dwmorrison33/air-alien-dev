@@ -1,11 +1,14 @@
-== README
+== Ruby Project to learn Ruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is my learning ruby by following a tutorial
 
-Things you may want to cover:
+**The following steps will create the same environment on your local machine and you will be able to clone this project so that it will work on your Mac.**
 
-* Ruby version
+* Install Command line tools on terminal
+sh```
+xcode-select --install
+```
+
 
 * System dependencies
 
