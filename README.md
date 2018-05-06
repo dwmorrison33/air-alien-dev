@@ -1,4 +1,4 @@
-== Ruby Project to learn Ruby
+## Ruby Project to learn Ruby
 
 This project is my learning ruby by following a tutorial
 
@@ -8,4 +8,40 @@ This project is my learning ruby by following a tutorial
 
 ```sh
 $ xcode-select --install
+```
+
+#### Install Homebrew
+```sh
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+#### Install rbenv
+```sh
+$ brew update
+$ brew install rbenv ruby-build
+$ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+$ echo 'export PATH="$HOME/.rbenv/shims:$PATH"' >> ~/.bash_profile
+$ source ~/.bash_profile
+```
+
+#### Install Ruby
+```sh
+$ rbenv install 2.2.1
+$ rbenv global 2.2.1
+$ ruby -v
+```
+
+#### Install Rails
+```sh
+$ gem install rails -v 4.2.0 --no-ri --no-rdoc
+$ rbenv rehash
+```
+
+#### check your versions
+```sh
+$ ruby -v
+# ruby 2.2.1
+
+$ rails -v
+# Rails 4.2.0
 ```
