@@ -45,3 +45,15 @@ $ ruby -v
 $ rails -v
 # Rails 4.2.0
 ```
+
+#### Also need to install bootstrap
+```sh
+$ bundle install
+```
+
+#### U can now runserver by typing the following in your projects root directory
+```sh
+rails s
+```
+
+[Click Here to launch your local server](http://localhost:3000/)
